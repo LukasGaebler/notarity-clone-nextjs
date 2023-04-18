@@ -1,0 +1,32 @@
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-color: #d5e0e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .upper {
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 0px;
+        color: rgb(19, 14, 65);
+    }
+    
+    .subheader {
+        color: rgb(64, 50, 185);
+    }
+    button {
+        padding: 15px 30px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(64, 50, 185);
+        color: white;
+        font-weight: 600;
+    }
+}
