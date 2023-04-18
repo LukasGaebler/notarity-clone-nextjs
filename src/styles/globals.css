@@ -9,7 +9,7 @@ body {
 .navbar {
   height: 60px;
   background-color: white;
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -21,6 +21,11 @@ body {
 
 .navbar .left {
   font-size: 2rem;
+  margin-left: 20px;
+}
+
+.navbar .left img {
+  max-width: 170px;
 }
 
 .navbar .side {
@@ -28,13 +33,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
 }
 
 .navbar .right .start {
-  border: 1px solid black;
-  border-radius: 7px;
+  border: 1px solid #501dff;
+  border-radius: 50px;
   padding: 10px 15px;
+}
+
+.navbar .right {
+  color: #501dff;
 }
 
 .hero {
@@ -49,6 +58,7 @@ body {
 
 .hero .upper {
   text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
 
 .hero h1 {
@@ -72,4 +82,35 @@ body {
 
 .body {
   height: 200vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.body .subheader {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-top: 40px;
+}
+
+.body h1 {
+  font-size: 40px;
+  margin: 0px;
+  color: rgb(19, 14, 65);
+}
+
+.body .features {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  color: rgb(19, 14, 65);
+}
+
+.body .features .feature {
+  max-width: 250px;
+  text-align: center;
+}
+
+.body .features .feature h3 {
+  font-size: 27px;
 }
